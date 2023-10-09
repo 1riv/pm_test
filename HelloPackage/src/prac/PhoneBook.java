@@ -51,7 +51,7 @@ public class PhoneBook {
     // 메인 메서드: 사용자로부터 연락처 정보를 입력받고 검색
     public static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
-        System.out.print("Number of Person: ");
+        System.out.print("Number of Person>>");
         int headCount = 0;
         // 사용자로부터 명수를 입력받음
         try {
@@ -72,10 +72,9 @@ public class PhoneBook {
         }
         // 저장 끝
         System.out.println("Store Done.");
-
         // 이름으로 연락처를 검색하는 무한 루프
         while (true) {
-            System.out.print("Name to Search >> ");
+            System.out.print("Name to search >> ");
             String name = stdin.next();
             // 특정 단어를 입력했을때 중단하도록 설정
             if (name.equalsIgnoreCase("stop") || name.equals("중단") || name.equals("그만")) {
