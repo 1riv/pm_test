@@ -28,5 +28,6 @@ public class ChangeMoney {
             // 숫자가 아닌 값을 입력한 경우 메시지 출력
             System.out.println("0보다 큰 숫자(금액)를 입력해주세요.");
         }
+        stdin.close();
     }
 }
