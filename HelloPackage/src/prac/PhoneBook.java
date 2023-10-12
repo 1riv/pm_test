@@ -83,7 +83,7 @@ public class PhoneBook {
             phonebook.addContact(i, new Contact(name, phoneNumber));
         }
         
-        // 입력과 배열에 저장이 끝나면 호출
+        // 입력과 배열에 저장이 끝나면 출력
         System.out.println("Store Done.");        
         // 이름으로 연락처를 검색하는 무한 루프
         while (true) {
