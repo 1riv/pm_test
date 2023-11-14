@@ -34,14 +34,16 @@ public class EnumEx {
 			private WeekEng(String name) {
 				this.engName = name;
 			}
+			
 			public String getName() {
 				return engName;
 			}
 		};
-		
 		for (WeekEng day : WeekEng.values()) {
 			System.out.println(day.getName());
 		}
+		String weektest3 = WeekEng.금.engName;
+		System.out.println(weektest3);
 	}
 
 }

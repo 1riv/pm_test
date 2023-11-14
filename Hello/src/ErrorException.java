@@ -5,8 +5,8 @@ public class ErrorException {
 		intArray[0] = 0;
 		try {
 			for (int i = 0; i < 5; i++) {
-				intArray[i+1] = i + 1 + intArray[i];
 				System.out.println(intArray[i]);
+				intArray[i+1] = i + 1 + intArray[i];
 				System.out.println("intArray[" + i + "] = " + intArray[i]);
 				}
 		}

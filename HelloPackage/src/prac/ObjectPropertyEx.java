@@ -29,7 +29,7 @@ public class ObjectPropertyEx {
 		Point p = new Point(2, 3);
 		print(p);
 		System.out.println(p.toString());
-		System.out.println(p);
+		System.out.println(p.getClass().getName()+ "@" + Integer.toHexString(p.hashCode()));
 		System.out.println(p + "입니다.");
 		
 		Point a = new Point(2,3);
@@ -38,7 +38,7 @@ public class ObjectPropertyEx {
 		
 		if (a == b) {
 			System.out.println("a == b");
-		}
+		} else System.out.println("not");
 		if (a.equals(b)) {
 			System.out.println("a is equal to b");
 		}

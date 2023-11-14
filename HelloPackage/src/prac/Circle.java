@@ -19,8 +19,6 @@ public class Circle {
 		this.name = new String(c.name);
 	}
 	
-	
-	
 	private void init(int r, String n) {
 		this.radius = r;
 		this.name = n;

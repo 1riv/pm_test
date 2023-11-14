@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArrayTest {
 	public static void main(String args[]) {
-		Scanner dd = new Scanner(System.in);
+		Scanner ds = new Scanner(System.in);
 		int i;
 		double sum = 0.0, avg;
 		double dnum[] = new double[5];
@@ -16,13 +16,13 @@ public class ArrayTest {
 		
 		for (i = 0; i < dnum.length; i++) {
 			System.out.print("dnum["+i+"] value: ");
-			dnum[i] = dd.nextDouble();
+			dnum[i] = ds.nextDouble();
 			sum += dnum[i];
 		}
 		
 		avg = sum / dnum.length;
 		System.out.println("sum of the array elements: " + sum + "\n" + "the average of the array elemnets: " + avg);
-		dd.close();
+		ds.close();
 	}
 
 }
