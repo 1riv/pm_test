@@ -46,7 +46,7 @@ public class Utils {
 			else eSquare();
 		}
 		System.out.println("\t|");
-		System.out.println("|  V석 1 ~ 30\t\t\t\t\t\t\t|");
+		System.out.println("|  V석 01 ~ 30\t\t\t\t\t\t\t|");
 		// S석 1 ~ 30
 		System.out.print("|  ");
 		for (int i=1; i<31; i++) {
@@ -55,7 +55,7 @@ public class Utils {
 			else eSquare();
 		}
 		System.out.println("\t|");
-		System.out.println("|  S석 1 ~ 30\t\t\t\t\t\t\t|");
+		System.out.println("|  S석 01 ~ 30\t\t\t\t\t\t\t|");
 		// A, B석 1 ~ 15
 		System.out.print("|  ");
 		for (int i=1; i<16; i++) {
@@ -69,7 +69,7 @@ public class Utils {
 			else eSquare();
 		}
 		System.out.println("\t|");
-		System.out.println("|  A석 1 ~ 15\t\t\t| B석 1 ~ 15\t\t\t|");
+		System.out.println("|  A석 01 ~ 15\t\t\t| B석 01 ~ 15\t\t\t|");
 		// A, B석 16 ~ 30
 		System.out.print("|  ");
 		for (int i=1; i<16; i++) {
